@@ -35,3 +35,17 @@ networking is practice of connecting multiple devices or computers to share info
 5. WLANS (Wireless Local Area Network)
 6. SAN (Storage Area Network)
 7. VPN (Virtual Private Network)
+
+## LAN vs WAN
+
+for LAN
+
+1. LAN (Local Area Network) - Typically found in homes, offices, schools, libraries or in other smaller places.
+2. Designed for connecting device like computers, printeras and servers in a close proximity environtment.
+3. LAN offer higher data transfer speeds and bandwith compared to WANs. This is becasue LANs are designed for local and internal use, allowing faste communication between devices
+4. LANs are moe cost-effective to set-up and maintain
+
+for WAN
+
+1. WAN (Wide Area Network) - collection of a local-area networks (LANs) or other networks that communicate with one another. You can imagine WAN as a "network of networks"
+2. Examples of WANs: Internet, global corporate network connecting offices worldwide, telecommunications network spanning a country.
