@@ -50,6 +50,20 @@ for WAN
 1. WAN (Wide Area Network) - collection of a local-area networks (LANs) or other networks that communicate with one another. You can imagine WAN as a "network of networks"
 2. Examples of WANs: Internet, global corporate network connecting offices worldwide, telecommunications network spanning a country.
 
+## Network Devices
+
+1. Routers
+   - Router acts as the 'traffic director' of a network. They are responsible for directing data packets between different networks, such as LANs and WANs
+   - Routers number one purpose: routing. Routers have routing tables to determine best path for data to travel
+     -Todays router usually perform functionality of both routers and switches
+   - Routers are used for network segmentation
+   - Router perform NAT (Network Address Translation)
+2. Switches
+   - Switches use MAC address of a device to send data only to the port that the destination device is plugged into
+   - Switches maintain mac address table to understand which devices are connected to which ports
+3. Modems
+   - Modem is a device that physically connect your network to your ISP's infrastructure. It establishes the initial internet connection by translating digital data from your network into a format that can be transmitted over the ISP's Network.
+
 # Kind of Adresses
 
 ## MAC Address
