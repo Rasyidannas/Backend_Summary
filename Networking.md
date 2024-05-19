@@ -49,3 +49,10 @@ for WAN
 
 1. WAN (Wide Area Network) - collection of a local-area networks (LANs) or other networks that communicate with one another. You can imagine WAN as a "network of networks"
 2. Examples of WANs: Internet, global corporate network connecting offices worldwide, telecommunications network spanning a country.
+
+# Kind of Adresses
+
+## MAC Address
+
+1. MAC (Media Access Control) address is also known as a hardware/phydical address and it is a unique identifier assigned to a network interface controller (NIC) in a computer or networking device
+2. MAC addresses are used at the data link layer (layer 2) of the OSI model. such as Ethernet or Wi-fi network.
