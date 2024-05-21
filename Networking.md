@@ -64,6 +64,24 @@ for WAN
 3. Modems
    - Modem is a device that physically connect your network to your ISP's infrastructure. It establishes the initial internet connection by translating digital data from your network into a format that can be transmitted over the ISP's Network.
 
+## Network Topologies
+
+Network Topologies refer to the arrangement of various elements (such as links, nodes, etc.) in a computer network. It defines how different devices are connected to each other and how data is transmitted in the network.  
+**Common network topologies include:**
+
+1. Star Topology
+   every nodes connects to a central network device (like a hub, switch or computer). Central network device acts as a server while peripheral devices act as clients.
+   - Key Components:
+     a. Central Hub (typically a network switch)
+     b. Nodes (individualt devices/computers connected to the central hub)
+   - Advantages:
+     a. Centralized Management
+     b. Easy to add another computer/device
+     c. Network functions normally even if one computer on the network fails
+   - Disanvantages:
+     a. Higher cost to implement
+     b. If the central computer /hub/switch fails, the entire network goes down
+
 ## Client-Server vs Peer-to-Peer
 
 1. Client-Server
