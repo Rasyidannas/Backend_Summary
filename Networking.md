@@ -64,6 +64,17 @@ for WAN
 3. Modems
    - Modem is a device that physically connect your network to your ISP's infrastructure. It establishes the initial internet connection by translating digital data from your network into a format that can be transmitted over the ISP's Network.
 
+## Client-Server vs Peer-to-Peer
+
+1. Client-Server
+
+   - Client - device taht is requesting a remote service or that is using remote service from a server
+   - Server - device that is hosting a service to the client
+   - Conclusion Client-Server is network is organized around a central server that provides resources, services or data. Clients which can be individual computers or devices, request and use those resources. Client-Server is often considered centralized.
+
+2. Peer-to-Peer
+   - Conclusion Peer-toPeer is devices (peers) in network have equal status and can act both as clients and servers. Each device can request and provided resources to other devices in the network.
+
 # Kind of Adresses
 
 ## MAC Address
