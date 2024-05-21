@@ -71,6 +71,7 @@ Network Topologies refer to the arrangement of various elements (such as links, 
 
 1. Star Topology
    every nodes connects to a central network device (like a hub, switch or computer). Central network device acts as a server while peripheral devices act as clients.
+
    - Key Components:
      a. Central Hub (typically a network switch)
      b. Nodes (individualt devices/computers connected to the central hub)
@@ -81,6 +82,25 @@ Network Topologies refer to the arrangement of various elements (such as links, 
    - Disanvantages:
      a. Higher cost to implement
      b. If the central computer /hub/switch fails, the entire network goes down
+
+2. Bus Topology
+   All devices are connected to a single communication line.
+
+   - Key Components:
+     a. Central Cable (Bus) is central cable is the backbone of the bus topology, it runs through the network connecting all devices to a single communication line.
+     b. Terminators is at each end of central cable there are terminators which prevent signal reflection and ensure that data does not "bounce back" and create interface
+     c. Nodes is node are dvice connected to the central bus cable.
+   - Advantages:
+     a. Easist network topology forconnection peripherals or computers in linear fashion
+     b. It works well when there is a small network
+     c. length of required cable is less than in a star topology
+     d. easy to connect remove devices without afecting any other devices
+     e. cost effective
+
+   - Disadvantages:
+     a. not greate for large networks
+     b. Troubleshooting individualt device issues is hard
+     c. if the main cable is dan=maged, the whole network fails (Terminators are required at both end of the main cable)
 
 ## Client-Server vs Peer-to-Peer
 
