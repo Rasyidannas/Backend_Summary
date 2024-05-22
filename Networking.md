@@ -102,6 +102,23 @@ Network Topologies refer to the arrangement of various elements (such as links, 
      b. Troubleshooting individualt device issues is hard
      c. if the main cable is dan=maged, the whole network fails (Terminators are required at both end of the main cable)
 
+3. Ring Topology
+   Each device is connected to two other devices, forming a circular data path.
+
+   - Key Components:
+     a. Nodes is devices such as computers, server that are connected to the ring and responsible for sending for sending and processing data
+     b. Ring is circular communication pathway which is formed by connecting each node to its adjacent neighbour in a loop
+     c. MAU (Multistation Access Unit) is in some implementations MAU is used to connect devices to the ring. It acts as a hub to facilitate communication between devices.
+   - Advantages:
+     a. data ussually flows in one direction, reducing the chance of packet collision
+     b. network server is not needed
+     c. data can transfer between workstations at high speeds
+     d. additional workstations can be added without impacting performance of network
+   - Disadvantages:
+     a. all data being transfered must pass through each workstation
+     b. entire network will be impacted if one workstation shut down
+     c. hardware needed to connect each other worksattion is expensive
+
 ## Client-Server vs Peer-to-Peer
 
 1. Client-Server
