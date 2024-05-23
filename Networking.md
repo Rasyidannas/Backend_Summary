@@ -169,3 +169,30 @@ Network Topologies refer to the arrangement of various elements (such as links, 
 
 1. MAC (Media Access Control) address is also known as a hardware/phydical address and it is a unique identifier assigned to a network interface controller (NIC) in a computer or networking device
 2. MAC addresses are used at the data link layer (layer 2) of the OSI model. such as Ethernet or Wi-fi network.
+
+## IP Adresses
+
+An Internet Protocol (IP) address is a unique string of numbers separated by periods or colons that identifies each computer using the Internet Protocol to communicate over a network.
+
+1. Types of IP Addresses
+
+- Types of IPv4 Addresses (Internet Protocol version 4)
+  IPv4 addresses are categorized based on their use and function.
+  a. Private IP is devices inside your network have private IP, given by DHCP (Dynamic Host Configuration Protocol)
+  b. Public IP is unique identifier for each device directly connected to the internet, your router can have a Public IP addresse but also a private IP.
+  c. Static IP is Assigned permanently to a device and does not change over time.
+  d. Dynamic IP Addresses is Assigned temporarily to a device from a pool of IP addresses by the Dynamic Host Configuration Protocol (DHCP)
+
+- Types of IPv6 Addresses (Internet Protocol version 6)
+  IPv6 also has different types of addresses based on their use.
+  a. Unicast is Identify a single interface. Data packets sent to a unicast address are delivered to the specific node.
+  c. Multicast is Identify multiple interfaces. Packets sent to a multicast address are delivered to all interfaces identified by that address.
+  d. Anycast is Assigned to multiple interfaces. Packets sent to an anycast address are delivered to the nearest interface identified by the address.
+
+2. Subnetting
+   Subnetting is the process of dividing a network into smaller subnetworks (subnets). For Improves network management and security by isolating segments of the network.
+
+3. Importance of IP Addresses
+   - Routing: IP addresses are essential for routing data packets between devices on different networks.
+   - Identification: Allow devices to identify and communicate with each other over a network.
+   - Security: Help in implementing security policies and tracking devices on a network.
