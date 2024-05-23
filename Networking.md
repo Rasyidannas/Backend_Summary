@@ -167,6 +167,16 @@ Network Topologies refer to the arrangement of various elements (such as links, 
 
 **Subnet** is logical subdivision of an IP Network and **Subnetting** is process of dividing a network into two or more networks. Some benefit of subnetting include: security, improving network performance.
 
+## Common Networking Commands
+
+1. `ifconfig` is a system administration utility in Unix-like operating systems for network interface configuration. It is used to view and change the configuration of network interfaces on a system.
+2. `ping [domain]` is command for a network utility used to test the reachability of a host on an Internet Protocol (IP) network and measure the round-trip time for messages sent from the originating host to a destination computer.
+3. `traceroute` is a network diagnostic tool used to track the path that packets take from one computer to another across an IP network. Here’s a detailed look at how traceroute works, its usage, and its interpretation:
+4. `arp -n` is used to manipulate the ARP (Address Resolution Protocol) cache of a system. ARP is used to map IP addresses to MAC addresses, which is essential for communication within a local network
+5. `nslookup [domain]` is a network administration tool used for querying the Domain Name System (DNS) to obtain domain name or IP address mapping. It can be used to find the IP address associated with a domain name, or the domain name associated with an IP address.
+6. `netstat -nt` is used to display active TCP connections with numerical addresses and port numbers, rather than resolving them to hostnames and service names.
+7. `route -n` is used to view and manipulate the IP routing table in Unix-like operating systems.
+
 # Kind of Adresses
 
 ## MAC Address
