@@ -119,6 +119,22 @@ Network Topologies refer to the arrangement of various elements (such as links, 
      b. entire network will be impacted if one workstation shut down
      c. hardware needed to connect each other worksattion is expensive
 
+4. Mesh Topology
+   Mesh topology is a network structure where each device is interconnected with every other device. This type of topology can be either full mesh or partial mesh.
+
+   - Key Components:
+     a. Nodes is device like computer, server or network peripherals which are interconnected witg one another thourgh direct links.
+     b. Links is Physical or logical connecetion between devices such as wired (Ethernal) or wireless (Wi-Fi) connections
+   - Full Mesh Topology
+     Every device in the network is connected to every other device.
+     a. Advantages: High Redundancy, Reliability, Scalability
+     b. Disadvantages: Cost, Complexity
+
+   - Parial Mesh Topology
+     Some devices are connected to every other device, but not all. Typically, critical devices have more connections than non-critical ones.
+     a. Advantages: Cost-Effective, Improved Fault Tolerance
+     b. Disadvantages: Complexity, Variable Redundancy
+
 ## Client-Server vs Peer-to-Peer
 
 1. Client-Server
