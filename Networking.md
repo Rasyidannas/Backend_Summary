@@ -9,7 +9,14 @@ networking is practice of connecting multiple devices or computers to share info
 4. Economic Impact
 5. Innovation
 
-## Types of Networks
+# Kind of Adresses in Netwroking
+
+## MAC Address
+
+1. MAC (Media Access Control) address is also known as a hardware/phydical address and it is a unique identifier assigned to a network interface controller (NIC) in a computer or networking device
+2. MAC addresses are used at the data link layer (layer 2) of the OSI model. such as Ethernet or Wi-fi network.
+
+### Types of Networks
 
 1. PAN (Personal Area Network)
    - PAN connects electronic devices within a user's immediate area
@@ -36,7 +43,7 @@ networking is practice of connecting multiple devices or computers to share info
 6. SAN (Storage Area Network)
 7. VPN (Virtual Private Network)
 
-## LAN vs WAN
+### LAN vs WAN
 
 for LAN
 
@@ -50,7 +57,7 @@ for WAN
 1. WAN (Wide Area Network) - collection of a local-area networks (LANs) or other networks that communicate with one another. You can imagine WAN as a "network of networks"
 2. Examples of WANs: Internet, global corporate network connecting offices worldwide, telecommunications network spanning a country.
 
-## Network Devices
+### Network Devices
 
 1. Routers
    - Router acts as the 'traffic director' of a network. They are responsible for directing data packets between different networks, such as LANs and WANs
@@ -64,7 +71,7 @@ for WAN
 3. Modems
    - Modem is a device that physically connect your network to your ISP's infrastructure. It establishes the initial internet connection by translating digital data from your network into a format that can be transmitted over the ISP's Network.
 
-## Network Topologies
+### Network Topologies
 
 Network Topologies refer to the arrangement of various elements (such as links, nodes, etc.) in a computer network. It defines how different devices are connected to each other and how data is transmitted in the network.  
 **Common network topologies include:**
@@ -152,7 +159,7 @@ Network Topologies refer to the arrangement of various elements (such as links, 
      a. Cost of implementaiton
      b. Complexity
 
-## Client-Server vs Peer-to-Peer
+### Client-Server vs Peer-to-Peer
 
 1. Client-Server
 
@@ -162,27 +169,6 @@ Network Topologies refer to the arrangement of various elements (such as links, 
 
 2. Peer-to-Peer
    - Conclusion Peer-toPeer is devices (peers) in network have equal status and can act both as clients and servers. Each device can request and provided resources to other devices in the network.
-
-## Subnetting
-
-**Subnet** is logical subdivision of an IP Network and **Subnetting** is process of dividing a network into two or more networks. Some benefit of subnetting include: security, improving network performance.
-
-## Common Networking Commands
-
-1. `ifconfig` is a system administration utility in Unix-like operating systems for network interface configuration. It is used to view and change the configuration of network interfaces on a system.
-2. `ping [domain]` is command for a network utility used to test the reachability of a host on an Internet Protocol (IP) network and measure the round-trip time for messages sent from the originating host to a destination computer.
-3. `traceroute` is a network diagnostic tool used to track the path that packets take from one computer to another across an IP network. Here’s a detailed look at how traceroute works, its usage, and its interpretation:
-4. `arp -n` is used to manipulate the ARP (Address Resolution Protocol) cache of a system. ARP is used to map IP addresses to MAC addresses, which is essential for communication within a local network
-5. `nslookup [domain]` is a network administration tool used for querying the Domain Name System (DNS) to obtain domain name or IP address mapping. It can be used to find the IP address associated with a domain name, or the domain name associated with an IP address.
-6. `netstat -nt` is used to display active TCP connections with numerical addresses and port numbers, rather than resolving them to hostnames and service names.
-7. `route -n` is used to view and manipulate the IP routing table in Unix-like operating systems.
-
-# Kind of Adresses
-
-## MAC Address
-
-1. MAC (Media Access Control) address is also known as a hardware/phydical address and it is a unique identifier assigned to a network interface controller (NIC) in a computer or networking device
-2. MAC addresses are used at the data link layer (layer 2) of the OSI model. such as Ethernet or Wi-fi network.
 
 ## IP Adresses
 
@@ -207,3 +193,17 @@ An Internet Protocol (IP) address is a unique string of numbers separated by per
    - Routing: IP addresses are essential for routing data packets between devices on different networks.
    - Identification: Allow devices to identify and communicate with each other over a network.
    - Security: Help in implementing security policies and tracking devices on a network.
+
+### Subnetting
+
+**Subnet** is logical subdivision of an IP Network and **Subnetting** is process of dividing a network into two or more networks. Some benefit of subnetting include: security, improving network performance.
+
+### Common Networking Commands
+
+1. `ifconfig` is a system administration utility in Unix-like operating systems for network interface configuration. It is used to view and change the configuration of network interfaces on a system.
+2. `ping [domain]` is command for a network utility used to test the reachability of a host on an Internet Protocol (IP) network and measure the round-trip time for messages sent from the originating host to a destination computer.
+3. `traceroute` is a network diagnostic tool used to track the path that packets take from one computer to another across an IP network. Here’s a detailed look at how traceroute works, its usage, and its interpretation:
+4. `arp -n` is used to manipulate the ARP (Address Resolution Protocol) cache of a system. ARP is used to map IP addresses to MAC addresses, which is essential for communication within a local network
+5. `nslookup [domain]` is a network administration tool used for querying the Domain Name System (DNS) to obtain domain name or IP address mapping. It can be used to find the IP address associated with a domain name, or the domain name associated with an IP address.
+6. `netstat -nt` is used to display active TCP connections with numerical addresses and port numbers, rather than resolving them to hostnames and service names.
+7. `route -n` is used to view and manipulate the IP routing table in Unix-like operating systems.
