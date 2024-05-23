@@ -163,6 +163,10 @@ Network Topologies refer to the arrangement of various elements (such as links, 
 2. Peer-to-Peer
    - Conclusion Peer-toPeer is devices (peers) in network have equal status and can act both as clients and servers. Each device can request and provided resources to other devices in the network.
 
+## Subnetting
+
+**Subnet** is logical subdivision of an IP Network and **Subnetting** is process of dividing a network into two or more networks. Some benefit of subnetting include: security, improving network performance.
+
 # Kind of Adresses
 
 ## MAC Address
@@ -189,10 +193,7 @@ An Internet Protocol (IP) address is a unique string of numbers separated by per
   c. Multicast is Identify multiple interfaces. Packets sent to a multicast address are delivered to all interfaces identified by that address.
   d. Anycast is Assigned to multiple interfaces. Packets sent to an anycast address are delivered to the nearest interface identified by the address.
 
-2. Subnetting
-   Subnetting is the process of dividing a network into smaller subnetworks (subnets). For Improves network management and security by isolating segments of the network.
-
-3. Importance of IP Addresses
+2. Importance of IP Addresses
    - Routing: IP addresses are essential for routing data packets between devices on different networks.
    - Identification: Allow devices to identify and communicate with each other over a network.
    - Security: Help in implementing security policies and tracking devices on a network.
