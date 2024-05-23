@@ -123,7 +123,7 @@ Network Topologies refer to the arrangement of various elements (such as links, 
    Mesh topology is a network structure where each device is interconnected with every other device. This type of topology can be either full mesh or partial mesh.
 
    - Key Components:
-     a. Nodes is device like computer, server or network peripherals which are interconnected witg one another thourgh direct links.
+     a. Nodes is device like computer, server or network peripherals which are interconnected with one another thourgh direct links.
      b. Links is Physical or logical connecetion between devices such as wired (Ethernal) or wireless (Wi-Fi) connections
    - Full Mesh Topology
      Every device in the network is connected to every other device.
@@ -134,6 +134,23 @@ Network Topologies refer to the arrangement of various elements (such as links, 
      Some devices are connected to every other device, but not all. Typically, critical devices have more connections than non-critical ones.
      a. Advantages: Cost-Effective, Improved Fault Tolerance
      b. Disadvantages: Complexity, Variable Redundancy
+
+5. Hybrid Topology
+   Combines two or more different types of topologies to form a complete network. Common hybrid Toppologies are Star-Ring Hybrid Topology, and Star-Bus Hybrid Topology
+
+   -Key Components:
+   a. Nodes is computers, servers, printer, networked peripherals that are part of the network
+   b. Multiple Topologied is the primary components of hybrid topology are various network topologies that are integrated (common topologies combined include star, bus, ring and mesh).
+
+   - Advantages:
+     a. Combines benefits of different types topologies in one topology
+     b. It can be modified per requirement
+     c. It is flexible and reliable
+     d. Error detecting and toubleshooting is easy
+     e. It is used to create large networks and handles a larrge volume of traffic
+   - Disadvantage
+     a. Cost of implementaiton
+     b. Complexity
 
 ## Client-Server vs Peer-to-Peer
 
