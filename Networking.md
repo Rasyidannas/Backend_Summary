@@ -212,7 +212,7 @@ An Internet Protocol (IP) address is a unique string of numbers separated by per
 
 The OSI (Open Systems Interconnection) Model is a conceptual framework used to understand and implement standard protocols in network communications.
 
-#### OSI Has 7 layers
+**OSI Has 7 layers:**
 
 1. Physical Layer is for Manages the physical connection between devices.
 2. Data Link Layer is for Provides node-to-node data transfer and handles error detection and correction from the physical layer.
@@ -221,3 +221,24 @@ The OSI (Open Systems Interconnection) Model is a conceptual framework used to u
 5. Session Layer is for Manages sessions between applications.
 6. Presentation Layer is for Translates, encrypts, and compresses data.
 7. Application Layer is for Provides network services to end-user applications.
+
+### What is a Protocol?
+
+Network Protocol is an established set of rules that determine how data is transmitted between different devices in the same network.
+
+**Protocol Characteristics:**
+
+1. Rule for data formatting and transmission
+2. Addressing
+3. Routing
+4. Error Handling
+5. Security
+
+**Some Commons Protocols:**
+
+1. IP
+2. TCP/UDP
+3. HTTP
+4. FTP
+5. SSH
+6. DNS
