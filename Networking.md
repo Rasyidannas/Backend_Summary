@@ -176,18 +176,18 @@ An Internet Protocol (IP) address is a unique string of numbers separated by per
 
 1. Types of IP Addresses
 
-- Types of IPv4 Addresses (Internet Protocol version 4)
-  IPv4 addresses are categorized based on their use and function.
-  a. Private IP is devices inside your network have private IP, given by DHCP (Dynamic Host Configuration Protocol)
-  b. Public IP is unique identifier for each device directly connected to the internet, your router can have a Public IP addresse but also a private IP.
-  c. Static IP is Assigned permanently to a device and does not change over time.
-  d. Dynamic IP Addresses is Assigned temporarily to a device from a pool of IP addresses by the Dynamic Host Configuration Protocol (DHCP)
+    - Types of IPv4 Addresses (Internet Protocol version 4)
+  	IPv4 addresses are categorized based on their use and function.
+        + Private IP is devices inside your network have private IP, given by DHCP (Dynamic Host Configuration Protocol)
+        + Public IP is unique identifier for each device directly connected to the internet, your router can have a Public IP addresse but also a private IP.
+        + Static IP is Assigned permanently to a device and does not change over time.
+        + Dynamic IP Addresses is Assigned temporarily to a device from a pool of IP addresses by the Dynamic Host Configuration Protocol (DHCP)
 
-- Types of IPv6 Addresses (Internet Protocol version 6)
-  IPv6 also has different types of addresses based on their use.
-  a. Unicast is Identify a single interface. Data packets sent to a unicast address are delivered to the specific node.
-  c. Multicast is Identify multiple interfaces. Packets sent to a multicast address are delivered to all interfaces identified by that address.
-  d. Anycast is Assigned to multiple interfaces. Packets sent to an anycast address are delivered to the nearest interface identified by the address.
+    - Types of IPv6 Addresses (Internet Protocol version 6)
+  	IPv6 also has different types of addresses based on their use.
+        + Unicast is Identify a single interface. Data packets sent to a unicast address are delivered to the specific node.
+        + Multicast is Identify multiple interfaces. Packets sent to a multicast address are delivered to all interfaces identified by that address.
+        + Anycast is Assigned to multiple interfaces. Packets sent to an anycast address are delivered to the nearest interface identified by the address.
 
 2. Importance of IP Addresses
    - Routing: IP addresses are essential for routing data packets between devices on different networks.
@@ -248,9 +248,8 @@ Network Protocol is an established set of rules that determine how data is trans
 1. Application Layer, topmost layer, it's responsible for providing network services directly to user application. It includes protocols like HTTP, FTP, SMTP and DNS
 
 2. Tranport Layer, it is responsible for end-to-end communication and data flow control. Two most known protocols:
-
-- TCP is proved realiable, connection-oriented communication and ensures data integrity, sequencing and error recovery
-- UDP is connectionless, lightweight protocols that provides faster, best-effort communication without the guarantee of reliability like TCP. UDP is used for real-time applications like video streaming.
+    - TCP is proved realiable, connection-oriented communication and ensures data integrity, sequencing and error recovery
+    - UDP is connectionless, lightweight protocols that provides faster, best-effort communication without the guarantee of reliability like TCP. UDP is used for real-time applications like video streaming.
 
 3. Network Layer/Internet Layer, deals with packets and connects indepedent networks to transport the packets accross network coundaries. Protocols: IP, ICMP
 
