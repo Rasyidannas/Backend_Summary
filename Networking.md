@@ -249,8 +249,8 @@ Network Protocol is an established set of rules that determine how data is trans
 
 2. Tranport Layer, it is responsible for end-to-end communication and data flow control. Two most known protocols:
 
-- TCP is proved realiable, connection-oriented communication and ensures data integrity, sequencing and error recovery
-- UDP is connectionless, lightweight protocols that provides faster, best-effort communication without the guarantee of reliability like TCP. UDP is used for real-time applications like video streaming.
+   - TCP is proved realiable, connection-oriented communication and ensures data integrity, sequencing and error recovery
+   - UDP is connectionless, lightweight protocols that provides faster, best-effort communication without the guarantee of reliability like TCP. UDP is used for real-time applications like video streaming.
 
 3. Network Layer/Internet Layer, deals with packets and connects indepedent networks to transport the packets accross network coundaries. Protocols: IP, ICMP
 
