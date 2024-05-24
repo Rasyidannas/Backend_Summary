@@ -242,3 +242,24 @@ Network Protocol is an established set of rules that determine how data is trans
 4. FTP
 5. SSH
 6. DNS
+
+**FUntion Protocols in layers of the OSI model**
+
+1. Application Layer, topmost layer, it's responsible for providing network services directly to user application. It includes protocols like HTTP, FTP, SMTP and DNS
+
+2. Tranport Layer, it is responsible for end-to-end communication and data flow control. Two most known protocols:
+
+- TCP is proved realiable, connection-oriented communication and ensures data integrity, sequencing and error recovery
+- UDP is connectionless, lightweight protocols that provides faster, best-effort communication without the guarantee of reliability like TCP. UDP is used for real-time applications like video streaming.
+
+3. Network Layer/Internet Layer, deals with packets and connects indepedent networks to transport the packets accross network coundaries. Protocols: IP, ICMP
+
+4. Pyshical layer/Data Link Layer, consists of protocols that operate only on a link - a network component that interconnects nodes or hosts in the network. Protocol: Ethernet
+
+### What is the TCP/IP
+
+**TCP/IP (Transmission Control Protocl/Internet Protocol)** suite of communication protocols used to interconnect network devices on the internet. TCP/IP specifies how data is exchanged over the internet by providing end-to-end communications that indentify howit should be broken into packets, addressed, transmitted, routed and recieved at the destination.
+
+**TCP** is defines how applications can create channels of communications accross network. It also handles message segmentation into smaller packets and their reassembly at the destination to ensure data integrity and proper ordering.
+
+**IP** is defines how to address and route each packet to make sure if reaches the right destination. Each gateway computer on the network checks this IP address to determine where to forward the message.
