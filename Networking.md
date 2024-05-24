@@ -207,3 +207,17 @@ An Internet Protocol (IP) address is a unique string of numbers separated by per
 5. `nslookup [domain]` is a network administration tool used for querying the Domain Name System (DNS) to obtain domain name or IP address mapping. It can be used to find the IP address associated with a domain name, or the domain name associated with an IP address.
 6. `netstat -nt` is used to display active TCP connections with numerical addresses and port numbers, rather than resolving them to hostnames and service names.
 7. `route -n` is used to view and manipulate the IP routing table in Unix-like operating systems.
+
+### OSI (Open System Interconection) Model
+
+The OSI (Open Systems Interconnection) Model is a conceptual framework used to understand and implement standard protocols in network communications.
+
+#### OSI Has 7 layers
+
+1. Physical Layer is for Manages the physical connection between devices.
+2. Data Link Layer is for Provides node-to-node data transfer and handles error detection and correction from the physical layer.
+3. Network Layer is for Manages the delivery of packets across network boundaries.
+4. Transport Layer is for Provides reliable data transfer services to the upper layers.
+5. Session Layer is for Manages sessions between applications.
+6. Presentation Layer is for Translates, encrypts, and compresses data.
+7. Application Layer is for Provides network services to end-user applications.
