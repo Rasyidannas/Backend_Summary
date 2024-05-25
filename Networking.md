@@ -266,10 +266,10 @@ Network Protocol is an established set of rules that determine how data is trans
 
 ### What is the HTTP/HTTPS
 
-**1. HTTP**
+**1. HTTP**  
 HTTP is a request-response protocol, meaning that a client sends a request to the server, and the server responds with the requested resource. It is an application layer protocol designed for transferring hypertext documents, such as website content (HTML, JS, CSS), between a web server and a web client (e.g., a web browser).
 
-**2. HTTPS**
+**2. HTTPS**  
 HTTPS is HTTP with encryption and verification. HTTPS uses TSL(SSL) to encrypt normal HTTP requests and response and to digitally sign them.
 
 
@@ -284,3 +284,26 @@ FTP (File Transfer Protocol) is a standard network protocol used to transfer fil
 **Some security in FTP**
 1. FTPS (FTP Secure), FTPS adds SSL/TLS encryption to FTP securing data transmission. It can operate in explicit (AUTH TLS) or implicit (SSL/TLS on the contril channed) mode.
 2. SFTP (SSH File Transfer Protocol), SFTp is a subsystem of SSH(Secure Shell) and provides secure file tranfer file transfer over SSH connections. It is not realted to traditional FTP and FTPS.
+
+### What is DNS
+DNS (Domain Name System) is a hierarchical and decentralized naming system used to translate human-friendly domain names (like www.example.com) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network.
+
+**DNS Records**
+1. A - ipv4
+2. AAAA - ipv6
+3. CNAME - used to create an alias for another domain ro subdomain
+4. MX - Mail Server
+5. SRV - specifies a port within a server for certain services
+6. SPF - txt files that dns uses to stop unwanted email traffic
+7. DMARC - also a txt file used by ISP to stop phishing emails
+
+**Kind of DNS Attacking**
+1. DNS Poisoning is poisoning DNS entries so that fake webpage is loaded upon request. Most common is dns cache poisoning.
+2. DNS Hijacking 
+3. DDos Attacks
+4. DNS Amplification
+
+**Kind of DNS Security**
+1. DNSSEC, strengthens authentication in DNS using digital signatures based on public key cryptography
+2. RRSIG, each DNS record is digitaly signed which creates RRSIG which provides integrity
+3. DNS Sinkhole, provide false information to attacker, can also forward malicious requests to honeypot. It can also be used to block certain type of content within the network
