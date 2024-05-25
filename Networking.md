@@ -263,3 +263,13 @@ Network Protocol is an established set of rules that determine how data is trans
 **TCP** is defines how applications can create channels of communications accross network. It also handles message segmentation into smaller packets and their reassembly at the destination to ensure data integrity and proper ordering.
 
 **IP** is defines how to address and route each packet to make sure if reaches the right destination. Each gateway computer on the network checks this IP address to determine where to forward the message.
+
+### What is the HTTP/HTTPS?
+
+**1. HTTP**
+HTTP is a request-response protocol, meaning that a client sends a request to the server, and the server responds with the requested resource. It is an application layer protocol designed for transferring hypertext documents, such as website content (HTML, JS, CSS), between a web server and a web client (e.g., a web browser).
+
+**2. HTTPS**
+HTTPS is HTTP with encryption and verification. HTTPS uses TSL(SSL) to encrypt normal HTTP requests and response and to digitally sign them.
+
+
