@@ -307,3 +307,18 @@ DNS (Domain Name System) is a hierarchical and decentralized naming system used 
 1. DNSSEC, strengthens authentication in DNS using digital signatures based on public key cryptography
 2. RRSIG, each DNS record is digitaly signed which creates RRSIG which provides integrity
 3. DNS Sinkhole, provide false information to attacker, can also forward malicious requests to honeypot. It can also be used to block certain type of content within the network
+
+
+### What is SSH
+SSH (Secure Shell) is a cryptographic network protocol used for secure communication over an unsecured network. It is commonly used for remote login to servers, allowing users to execute commands and manage systems securely. SSH provides strong authentication and encrypted data communications between two computers connecting over an insecure network, such as the internet.
+
+**Key CHaracteristics**
+1. Authenticateion, SSH employs a robust authentication system to verify the identify of users and hosts. SSH Keys consits of a public key(stored on a server) and a private key(stored on the client). This asymetric key-based authentication is considered highly secure and less vulnerable to brute-force attacks.
+2. Secure Communication, SSH established secure communication channels between client and server. This allow for not only remote shell access (Command-line interface) but also secure file transfers and tunneling for other network services
+3. Portability, SSH is avalaible for various operationg systems including: Linux, Unix, MacOs, Windows and more...
+
+**Use Case**
+1. Have secure shell sessions
+2. Tunneling
+3. Secure file transfers (SFTP, SCP)
+4. Remote server administration
