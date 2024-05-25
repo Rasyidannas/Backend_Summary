@@ -264,7 +264,7 @@ Network Protocol is an established set of rules that determine how data is trans
 
 **IP** is defines how to address and route each packet to make sure if reaches the right destination. Each gateway computer on the network checks this IP address to determine where to forward the message.
 
-### What is the HTTP/HTTPS?
+### What is the HTTP/HTTPS
 
 **1. HTTP**
 HTTP is a request-response protocol, meaning that a client sends a request to the server, and the server responds with the requested resource. It is an application layer protocol designed for transferring hypertext documents, such as website content (HTML, JS, CSS), between a web server and a web client (e.g., a web browser).
@@ -273,3 +273,14 @@ HTTP is a request-response protocol, meaning that a client sends a request to th
 HTTPS is HTTP with encryption and verification. HTTPS uses TSL(SSL) to encrypt normal HTTP requests and response and to digitally sign them.
 
 
+### What is FTP 
+FTP (File Transfer Protocol) is a standard network protocol used to transfer files between a client and a server on a computer network. FTP is built on a client-server model architecture and uses separate control and data connections between the client and the server.
+
+**FTP has 2 main modes**
+1. Active mode is the client initates the connection for data transfer. The Server connects back to the client send or recieve data.
+2. Passive mode is the server initates the data connection by listening on specific post, the client connects to the servers port to send or recieve data.
+
+
+**Some security in FTP**
+1. FTPS (FTP Secure), FTPS adds SSL/TLS encryption to FTP securing data transmission. It can operate in explicit (AUTH TLS) or implicit (SSL/TLS on the contril channed) mode.
+2. SFTP (SSH File Transfer Protocol), SFTp is a subsystem of SSH(Secure Shell) and provides secure file tranfer file transfer over SSH connections. It is not realted to traditional FTP and FTPS.
