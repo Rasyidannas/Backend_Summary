@@ -322,3 +322,10 @@ SSH (Secure Shell) is a cryptographic network protocol used for secure communica
 2. Tunneling
 3. Secure file transfers (SFTP, SCP)
 4. Remote server administration
+
+### Other Common Protocols
+1. SMTP (Simple Mail Transfer Protocols), used for sending and receiving email messages. It handles the sending of outgoing emails from senders email client to the recipients email server.
+2. POP3, email retrieval protocol that allows user to download their email from a mail server to their local devices.
+3. IMAP, another email protocol for retreving and managing email messages. Unlike POP3, IMAP allows users to view and manage email messgaes on the server without downloading them.
+4. NTP (Network Time Protocol), used to synchonice the time on computer system within a network
+5. ICMP (Internet Control Message Protocol), ICMP is responsible for error reporting and diagnostics in IP networks. It is commonly used for functions like the "ping" command which tests network connectivity
