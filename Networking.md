@@ -243,7 +243,7 @@ Network Protocol is an established set of rules that determine how data is trans
 5. SSH
 6. DNS
 
-**FUntion Protocols in layers of the OSI model**
+**Function Protocols in layers of the OSI model**
 
 1. Application Layer, topmost layer, it's responsible for providing network services directly to user application. It includes protocols like HTTP, FTP, SMTP and DNS
 
