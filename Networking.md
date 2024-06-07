@@ -1,6 +1,6 @@
 # What is Networking?
 
-networking is practice of connecting multiple devices or computers to share information and resources.
+networking is practice of connecting multiple devices or computers to share information and resources. ![Sample Network Image] (images/Simple-Network.PNG)
 **Importance of Networkin:**
 
 1. Global Connectivity
